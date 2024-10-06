@@ -1,0 +1,20 @@
+{
+  "name": "aayush-avani--main",
+  "version": "1.0.0",
+  "description": "Site description :-> # Add google font according to your use. # Use fontawesome to add icons. # Can use Tailwind and Bootstrap like framework to work with css. # Can Add aninmation and scroll effect and hover effect to get Bonus Points. # Site should be responsive. # site contain following section :         > NavBar Section         > Introduction Section         >  Skills Section         >  Blogs Page         >  Projects Section          >  Services Page          >  Services Page          >  Contact Me          >  Footer Section",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  },
+  "dependencies": {
+    "vite": "^5.4.8"
+  }
+}

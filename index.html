@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <!-- Use https://fontawesome.com/v4/icon/ to add any kinds of icons... -->
+    <script src="https://kit.fontawesome.com/8a0ba327d0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- you can use *tailwind* , *bootstrap* and *explicit css* for appling css to site -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+     <!-- for font styling use google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+      <!--  -->
+
+      <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- nav bar section starts-->
+    <header>
+        <!-- add logo.jpg here -->
+        <img height="20px" width="20px" class="rounding" src="./assets/logo.jpg" >
+            <nav class="w-full fixed items-center justify-between flex px-2 py-3 tracking-wide bg-green-500 text-white border-b-4 border-green-800 ">
+            <ul class="flex">
+                <li><a href="#" class="mx-3 hover:text-yellow-200 font-semibold">Home</a></li>
+                <li><a href="#" class="mx-3 hover:text-yellow-200 font-semibold">Blogs</a></li>
+                <li><a href="#" class="mx-3 hover:text-yellow-200 font-semibold">Projects</a></li>
+                <li><a href="#" class="mx-3 hover:text-yellow-200 font-semibold">Services</a></li>
+                <li><a href="#contact" class="mx-3 hover:text-yellow-200 font-semibold">Contact</a></li>
+            </ul>
+            <button class="mx-2 hover:text-black items-end border border-white p-2 hover:bg-white rounded">Download Resume <i class="fa-solid fa-download font-awesome"></i></button>
+        </nav>
+    </header>
+    <!-- nav bar section ends--> 
+
+    <!-- Introduction section starts -->
+    <section>
+        <div class="flex w-full h-screen">
+        <div class="w-6/12 mx-20 my-52  text-3xl space-y-1 space-x-1">
+            <h1 class="text-4xl title-font font-bold">Hi, I'm <span class="text-blue-600">Avani</span>.</h1>
+            <p class="my-3 font-semibold font-mono">Welcome to my portfolio. <br>I am a <span class="text-blue-600">student </span> passionate about <span class="text-blue-600">web</span>.</p>
+        </div>
+                    <!-- add boyProfile.jpg or girlProfile.jpg here -->
+                    <div class="object-cover w-6/12 items-center object-center bg-green-500">
+                        <img class="space-y-20" src="./assets/girl.png" >
+                    </div>
+        </div>
+    </section>
+    <!-- Introduction section ends -->
+
+    <!-- Skills section starts -->
+    <section class="border-blue-800 border-2 p-2 font-mono bg-blue-500 text-white text-3xl">
+        <h2 class="font-bold text-3xl text-center underline text-5xl">Me and My Tech Stack</h2>
+        <p class="text-center">I am a passionate developer with expertise in various technologies. <br>Here is a brief overview of my skills,
+            education, and the technologies I work with.</p>
+
+        <div>
+            <div>
+                <h3 class="text-2xl font-bold">Skills</h3>
+                <ul>
+                    <li>Skill 1</li>
+                    <li>Skill 2</li>
+                    <li>Skill 3</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Experience</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="">
+                <h3>Education</h3>
+                <table class="border-blue-800 border-2">
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bachelor's Degree</td>
+                            <td>University Name</td>
+                            <td>YYYY</td>
+                        </tr>
+                        <tr>
+                            <td>High School Diploma</td>
+                            <td>High School Name</td>
+                            <td>YYYY</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section ends -->
+
+    <!-- Blogs page start -->
+    <section class="font-mono bg-blue-500 text-white text-3xl">
+        <h2>Blogs</h2>
+        <div>
+            <h3>Blog Title 1</h3>
+            <p>Short description of blog post 1.</p>
+            <p>Date: DD/MM/YYYY</p>
+        </div>
+        <div>
+            <h3>Blog Title 2</h3>
+            <p>Short description of blog post 2.</p>
+            <p>Date: DD/MM/YYYY</p>
+        </div>
+        <div>
+            <h3>Blog Title 3</h3>
+            <p>Short description of blog post 3.</p>
+            <p>Date: DD/MM/YYYY</p>
+        </div>
+        <div>
+            <h3>Blog Title 4</h3>
+            <p>Short description of blog post 4.</p>
+            <p>Date: DD/MM/YYYY</p>
+        </div>
+    </section>
+    <!-- Blogs page ends -->
+
+    <!-- project section starts -->
+    <section class="font-mono bg-green-500 text-white text-3xl">
+        <h2>Projects</h2>
+        <div>
+            <!-- add one.svg here -->
+            <img src="">
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
+            <p>Start: DD/MM/YYYY - End: DD/MM/YYYY</p>
+            <a href="#">Live</a>
+            <a href="#">GitHub</a>
+        </div>
+        <div>
+            <!-- add two.svg here -->
+            <img src="">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+            <p>Start: DD/MM/YYYY - End: DD/MM/YYYY</p>
+            <a href="#">Live</a>
+            <a href="#">GitHub</a>
+        </div>
+        <div>
+            <!-- add three.svg here -->
+            <img src="">
+            <h3>Project 3</h3>
+            <p>Description of Project 3.</p>
+            <p>Start: DD/MM/YYYY - End: DD/MM/YYYY</p>
+            <a href="#">Live</a>
+            <a href="#">GitHub</a>
+        </div>
+        <div>
+            <!-- add four.svg here -->
+            <img src="">
+            <h3>Project 3</h3>
+            <p>Description of Project 3.</p>
+            <p>Start: DD/MM/YYYY - End: DD/MM/YYYY</p>
+            <a href="#">Live</a>
+            <a href="#">GitHub</a>
+        </div>
+    </section>
+    <!-- project section ends -->
+
+    <!-- services page  start -->
+    <section class="font-mono bg-green-500 text-white text-3xl">
+        <h2>Services</h2>
+        <div>
+            <h3>Service 1</h3>
+            <ul>
+                <li>Detail 1</li>
+                <li>Detail 2</li>
+                <li>Detail 3</li>
+            </ul>
+            <p>Price: $X</p>
+        </div>
+        <div>
+            <h3>Service 2</h3>
+            <ul>
+                <li>Detail 1</li>
+                <li>Detail 2</li>
+                <li>Detail 3</li>
+            </ul>
+            <p>Price: $Y</p>
+        </div>
+        <div>
+            <h3>Service 3</h3>
+            <ul>
+                <li>Detail 1</li>
+                <li>Detail 2</li>
+                <li>Detail 3</li>
+            </ul>
+            <p>Price: $Z</p>
+        </div>
+    </section>
+    <!-- services page ends -->
+
+    <!-- contact me section starts -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label>Name:</label>
+            <input class="border-black" type="text" required>
+
+            <label>Email:</label>
+            <input class="border-black" type="email" required>
+            
+            <button class="border-black" type="submit">Submit</button>
+        </form>
+        <div>
+            <a href="#">Social 1</a>
+            <a href="#">Social 2</a>
+            <a href="#">social 3</a>
+        </div>
+    </section>
+    <!-- contact me section ends -->
+
+    <!-- footer page start -->
+    <footer>
+        <div>
+            <div>
+                <!-- add your linkdin and git link here if you have  -->
+                <a href="https://www.linkedin.com/">LinkedIn</a>
+                <a href="https://www.github.com/">GitHub</a>
+            </div>
+            <div>
+                <nav class="w-full items-center justify-between flex px-2 py-3 tracking-wide bg-green-700 text-white border-t-4 border-green-800">
+                    <!-- complete href also  -->
+                    <a class="mx-2" href="#">Blogs</a>
+                    <a class="mx-2" href="#">Projects</a>
+                    <a class="mx-2" href="#">Services</a>
+                    <a class="mx-2" href="#">Contact</a>
+                    <a class="mx-2" href="#">Admin</a>
+                </nav>
+            </div>
+            <div class="">
+                <p class="text-center"><a class="" href="mailto:example@example.com"><i class="fa-solid fa-envelope"></i>example@example.com</a></p>
+            </div>
+        </div>
+        <div>
+            <p class="text-center" >&copy; 2024 .Avani Upadhyay. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- footer page ends -->
+
+</body>
+
+</html>
